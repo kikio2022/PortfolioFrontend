@@ -1,0 +1,14 @@
+.navbar.navbar-expand-lg.bg-primary{
+    background: rgb(234,113,207);
+    background: -moz-linear-gradient(0deg, rgba(234,113,207,0.7455357142857143) 20%, rgba(114,116,121,1) 48%, rgba(234,113,207,1) 80%);
+    background: -webkit-linear-gradient(0deg, rgba(234,113,207,0.7455357142857143) 20%, rgba(114,116,121,1) 48%, rgba(234,113,207,1) 80%);
+    background: linear-gradient(0deg, rgba(234,113,207,0.7455357142857143) 20%, rgba(114,116,121,1) 48%, rgba(234,113,207,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ea71cf",endColorstr="#ea71cf",GradientType=1);   
+}
+i.fa-brands.fa-linkedin.fa-xl:hover{
+color:blue;
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
