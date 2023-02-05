@@ -5,10 +5,30 @@
     background: linear-gradient(0deg, rgba(234,113,207,0.7455357142857143) 20%, rgba(114,116,121,1) 48%, rgba(234,113,207,1) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ea71cf",endColorstr="#ea71cf",GradientType=1);   
 }
+i.fa-brands.fa-linkedin.fa-xl,
+i.fa-brands.fa-facebook.fa-xl,
+i.fa-brands.fa-instagram.fa-xl,
+i.fa-solid.fa-user.fa-xl{
+    color:#fff;
+    }
 i.fa-brands.fa-linkedin.fa-xl:hover{
-color:blue;
+color:rgb(84, 161, 233);
 }
+i.fa-brands.fa-facebook.fa-xl:hover{
+    color:blue;
+    }
+    i.fa-brands.fa-instagram.fa-xl:hover{
+        color:rgb(238, 81, 217);
+        } 
+        i.fa-solid.fa-user.fa-xl:hover{
+            color:rgb(109, 33, 231);
+             }    
 .list-group{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
 }
+.banner {
+    width: 100%;
+    margin-top: -30%;
+}
+
