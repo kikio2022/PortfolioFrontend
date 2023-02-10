@@ -9,8 +9,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endCo
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
 }
+i.fa-brands.fa-github.fa-2x.text-white:hover{
+    color:#449ef3;
+    }
+    i.fa-brands.fa-facebook.fa-2x:hover{
+        color:#1f1ff3;
+        }
+        i.fa-brands.fa-instagram.fa-2x:hover{
+            color:#ee76de;
+            } 
+            i.fa-solid.fa-user-lock.fa-2x:hover{
+                color:#4ed1f1;
+                 }    
 .carousel-item{
     width: 100%;
-    margin-top: -25%;
+    margin-top: -10%;
 }
 
