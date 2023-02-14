@@ -1,28 +1,73 @@
 .bg-dark{
     background: rgb(174,179,186);
-background: -moz-linear-gradient(0deg, rgba(174,179,186,1) 32%, rgba(233,164,225,1) 74%);
-background: -webkit-linear-gradient(0deg, rgba(174,179,186,1) 32%, rgba(233,164,225,1) 74%);
-background: linear-gradient(0deg, rgba(174,179,186,1) 32%, rgba(233,164,225,1) 74%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endColorstr="#e9a4e1",GradientType=1);
-}
+    background: -moz-linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
+    background: -webkit-linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
+    background: linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endColorstr="#e9a4e1",GradientType=1);
+     }
 .list-group{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
 }
-i.fa-brands.fa-github.fa-2x.text-white:hover{
-    color:#449ef3;
+
+
+.progress-bar.bg-succes{
+    width: 50%;
+}
+.progress-bar.bg-info{
+    width: 50%;
+}
+.progress-bar.bg-warning{
+    width: 50%;
+}
+.progress-bar.bg-danger{
+    width: 50%;
+}
+
+
+
+i.fa-brands.fa-github.fa-2x,
+i.fa-brands.fa-facebook.fa-2x,
+i.fa-brands.fa-instagram.fa-2x,
+i.fa-solid.fa-user-lock.fa-2x{  
+    color:#fff;
+    }
+
+i.fa-brands.fa-github.fa-2x:hover{
+    color:hsl(54, 73%, 75%);
     }
     i.fa-brands.fa-facebook.fa-2x:hover{
-        color:#1f1ff3;
+        color:hsl(240, 90%, 60%);
         }
         i.fa-brands.fa-instagram.fa-2x:hover{
-            color:#ee76de;
+            color:hsl(308, 100%, 72%);
             } 
             i.fa-solid.fa-user-lock.fa-2x:hover{
-                color:#4ed1f1;
+                color:hsl(192, 85%, 64%);
                  }    
 .carousel-item{
     width: 100%;
     margin-top: -10%;
+    transition: 400ms;
+    }
+    .about-me{
+        background-color: rgb(243, 221, 214);
+    }
+    .Educacion{
+        background-color: rgb(219, 231, 240);
+    }
+.skills{
+    background-color: rgb(255, 214, 231);
+}
+.Proyectos{
+    background-color: rgb(176, 211, 197);
 }
 
+.Experiencia{
+    background-color: rgb(207, 241, 207);
+}
+.card{
+    width: 40rem;
+    background-color: rgb(204, 204, 204);
+    
+}
