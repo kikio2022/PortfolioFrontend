@@ -1,4 +1,5 @@
-.navbar.navbar-expand-lg.bg-primary{
+.navbar.navbar-expand-lg.bg-primary,
+.bg-secondary{
     background: rgb(234,113,207);
     background: -moz-linear-gradient(0deg, rgba(234,113,207,0.7455357142857143) 20%, rgba(114,116,121,1) 48%, rgba(234,113,207,1) 80%);
     background: -webkit-linear-gradient(0deg, rgba(234,113,207,0.7455357142857143) 20%, rgba(114,116,121,1) 48%, rgba(234,113,207,1) 80%);
@@ -17,13 +18,16 @@ color:rgb(84, 161, 233);
 }
 i.fa-brands.fa-facebook.fa-xl:hover{
     color:blue;
-    }
-    i.fa-brands.fa-instagram.fa-xl:hover{
-        color:rgb(238, 81, 217);
-        } 
-        i.fa-solid.fa-user-lock.fa-xl:hover{
-            color:rgb(109, 33, 231);
-             }    
+}
+i.fa-brands.fa-instagram.fa-xl:hover{
+color:rgb(238, 81, 217);
+} 
+i.fa-solid.fa-user-lock.fa-xl:hover{
+color:rgb(109, 33, 231);
+} 
+.fa-solid.fa-user.fa-xl:hover{
+color: darksalmon;
+}              
 .list-group{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
@@ -33,6 +37,19 @@ i.fa-brands.fa-facebook.fa-xl:hover{
    margin-top: -25%;
  }
  section.admin{
-    margin-top: 7rem;
+    margin-top: 8rem;
 }
+
+.nav-pills{
+    --bs-nav-pills-link-active-bg: #df11b2bf;
+}
+
+.nav-link{
+    color: rgba(131, 67, 214, 0.75);
+}
+.nav-link:hover{
+    color: darkgrey;
+}
+
+
 

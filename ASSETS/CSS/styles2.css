@@ -1,16 +1,103 @@
+/*Fuente general*/
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital@1&display=swap');
+
+*{
+    font-family: 'Gloock', serif;
+    font-family: 'Raleway', sans-serif;
+}
+/*redes navbar*/
 .bg-dark{
     background: rgb(174,179,186);
     background: -moz-linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
     background: -webkit-linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
     background: linear-gradient(0deg, rgba(174,179,186,1) 35%, rgba(233,164,225,1) 71%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb3ba",endColorstr="#e9a4e1",GradientType=1);
-     }
+}
+   
+
+
 .list-group{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
 }
 
+i.fa-brands.fa-github.fa-2x,
+i.fa-brands.fa-facebook.fa-2x,
+i.fa-brands.fa-instagram.fa-2x,
+i.fa-solid.fa-user-lock.fa-2x,
+i.fa-solid.fa-user.fa-2x{  
+    color:#fff;
+    
+    }
 
+i.fa-brands.fa-github.fa-2x:hover{
+    color:hsl(9, 94%, 68%);
+    transition: transform o.3s ease-in-out;
+    transform: scale(1.55);
+}
+i.fa-brands.fa-facebook.fa-2x:hover{
+color:hsl(240, 90%, 60%);
+transition: transform o.3s ease-in-out;
+    transform: scale(1.55);
+}
+i.fa-brands.fa-instagram.fa-2x:hover{
+ color:hsl(308, 100%, 72%);
+ transition: transform o.3s ease-in-out;
+    transform: scale(1.55);
+} 
+i.fa-solid.fa-user-lock.fa-2x:hover{
+color:#c78ef5;
+transition: transform o.3s ease-in-out;
+    transform: scale(1.55);
+} 
+/*Carrusel-banner*/   
+.carousel-item{
+    width: 100%;
+     margin-top: 4.5rem;
+    transition: 4s;
+}
+.slide img{
+    height: 70vh;
+    
+}
+h1{
+    color: #7ffc66fd;
+    font: 3em sans-serif;
+}
+h1:hover{
+    transform: translateY(-25%);
+    
+}
+
+/*Sobre mi, foto y letra*/
+.about-me{
+    background-color: rgb(243, 221, 214);
+}
+/*Foto de perfil*/
+.rounded-circle.w-100{
+    width: 100%;
+    z-index: 1;
+    height: 60vh;
+    margin-top: -4.5rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    transform: none;
+    position: relative;
+}
+
+
+/*Educacion*/
+.Educacion{
+background-color: rgb(219, 231, 240);
+}
+.estudio img{
+    height: 100vh;
+    width: 100%;
+}
+/*Skills*/
+.skills{
+    background-color: rgb(255, 214, 231);
+}
 .progress-bar.bg-succes{
     width: 50%;
 }
@@ -24,50 +111,76 @@
     width: 50%;
 }
 
-
-
-i.fa-brands.fa-github.fa-2x,
-i.fa-brands.fa-facebook.fa-2x,
-i.fa-brands.fa-instagram.fa-2x,
-i.fa-solid.fa-user-lock.fa-2x{  
-    color:#fff;
-    }
-
-i.fa-brands.fa-github.fa-2x:hover{
-    color:hsl(54, 73%, 75%);
-    }
-    i.fa-brands.fa-facebook.fa-2x:hover{
-        color:hsl(240, 90%, 60%);
-        }
-        i.fa-brands.fa-instagram.fa-2x:hover{
-            color:hsl(308, 100%, 72%);
-            } 
-            i.fa-solid.fa-user-lock.fa-2x:hover{
-                color:hsl(192, 85%, 64%);
-                 }    
-.carousel-item{
-    width: 100%;
-    margin-top: -10%;
-    transition: 400ms;
-    }
-    .about-me{
-        background-color: rgb(243, 221, 214);
-    }
-    .Educacion{
-        background-color: rgb(219, 231, 240);
-    }
-.skills{
-    background-color: rgb(255, 214, 231);
-}
-.Proyectos{
-    background-color: rgb(176, 211, 197);
-}
-
+/*Experiencia*/
 .Experiencia{
     background-color: rgb(207, 241, 207);
 }
-.card{
-    width: 40rem;
-    background-color: rgb(204, 204, 204);
-    
+
+/*proyecto y educacion imagen*/
+.Proyecto{
+    background-color: rgb(242, 243, 210);
 }
+
+.card{
+     background-color: rgb(231, 216, 197);
+}
+.card img{
+    height: 60vh;
+    width: 50%;
+}
+
+.card:hover{
+    transform: translateY(-2%);
+    box-shadow: 5px 50px 20px hsl(0, 1%, 13%);
+}
+/*Login*/
+.login{
+    margin-top: 10rem;
+}
+.login{
+    height: 94vh;
+}
+/*Admin*/
+.admin{
+    font-size: 1.5rem;
+}
+.link{
+    text-decoration:none;
+    color: #ffff;
+}
+
+/*Panel*/
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    
+} 
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+   }   
+
+.footer.bg-dark{
+    bottom: 0;
+    position: fixed;
+    transform: none;
+    width: 100%;
+}
+
+.tab-content{
+    margin-top: 4.5rem;
+}
+/*Dashboard*/
+.panal{
+    margin-top: 7rem;
+}
+
+.btn-secondary:hover{
+    opacity: 0.75;
+    color: #c94291;
+}
+    

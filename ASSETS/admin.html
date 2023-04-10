@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Administrador</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ab46306c1c.js" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-primary fixed-top">
     <div class="container-fluid">
-        <aclass="navbar-brand" href="#">
+        <a class="navbar-brand" href="#">
           <img src="../ASSETS/IMG/logo2023.png" alt="" width="" height="">
         </a>
          <ul class="list-group list-group-horizontal">
@@ -26,46 +26,270 @@
              </i>
           </li>
           </ul>
-
+        </div>
+      </nav>
          <!-- Modal -->
-</div>
-</nav> 
+
+ 
   <section id="admin" class="admin">
-   <div class="container-fluid text-center">
+   <div class="container-fluid">
     <div class="row">
       <!--sidebar-->
-      <div class="col-2">
-        <div class="list-group">
-          <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+      <div class="col-md-3">
+        <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-redes-tab" data-bs-toggle="pill" data-bs-target="#v-pills-redes" type="button" role="tab" aria-controls="v-pills-redes" aria-selected="true">Redes</button>
+    <button class="nav-link" id="v-pills-banner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-banner" type="button" role="tab" aria-controls="v-pills-banner" aria-selected="false">Banner</button>
+    <button class="nav-link" id="v-pill-acerca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-acerca" type="button" role="tab" aria-controls="v-pills-acerca" aria-selected="false">Acerca de mi</button>
+    <button class="nav-link" id="v-pills-educacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-educacion" type="button" role="tab" aria-controls="v-pills-educacion" aria-selected="false">Educacion</button>
+    <button class="nav-link" id="v-pills-experiencia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experiencia" type="button" role="tab" aria-controls="v-pills-experiencia" aria-selected="false">Experiencia</button>
+    <button class="nav-link" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</button>
+    <button class="nav-link" id="v-pills-proyectos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-proyectos" type="button" role="tab" aria-controls="v-pills-proyectos" aria-selected="false">Proyectos</button>
+
+  </div>
+</div>
+      </div>
+      <!--body redes-->
+      <div class="col-md-8 mt-3 tab-content" id= "v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-redes" role="tabpanel" aria-labelledby="v-pills-redes-tab" tabindex="0">
+          <h4 class="text-center">Redes Sociales</h4>
+            <div class="mb-3">
+              <label for="formFileSm" class="form-label">Instagram</label>
+                 <input class="form-control form-control-sm" id="formFileSm" type="text">
+                 <button type="button" class="btn btn-secondary">Guardar</button>
+                 </div>
+                   <div class="mb-3">
+                    <label for="formFileSm" class="form-label">Facebook</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="text">
+                    <button type="button" class="btn btn-secondary">Guardar</button>
+                      </div>
+                     <div class="mb-3">
+                          <label for="formFileSm" class="form-label">Github</label>
+                             <input class="form-control form-control-sm" id="formFileSm" type="text">
+                             <button type="button" class="btn btn-secondary">Guardar</button>
+                                </div>
+                                </div>
+                   <!--seccion banner-->             
+         <div class="tab-pane fade" id="v-pills-banner" role="tabpanel" aria-labelledby="v-pills-banner-tab" tabindex="0">
+          <h4 class="text-center">Banner</h4>
+          <div class="mb-3">
+          <label for="formFileSm" class="form-label">Imagen uno</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+          <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+          <div class="mb-3">
+          <label for="formFileSm" class="form-label">Imagen dos</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+          <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+          <div class="mb-3">
+          <label for="formFileSm" class="form-label">Imagen tres</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+          <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+         </div>
+         <!--seccion about-->
+         <div class="tab-pane fade" id="v-pills-acerca" role="tabpanel" aria-labelledby="v-pills-acerca-tab" tabindex="0">
+          <h4 class="text-center">Acerca de mi</h4>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">foto de perfil</label>
+               <input class="form-control form-control-sm" id="formFileSm" type="file">
+               <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Nombre y Apellido</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Acerca de mi</label>
+            <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+            <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+        </div>
         
-          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
-        </div> 
-      </div>
-      <!--body-->
-      <div class="col-9">
-        <h5>Datos Personales</h5>
-        <div class="mb-3">
-          <label for="formFileSm" class="form-label">foto de perfil</label>
-             <input class="form-control form-control-sm" id="formFileSm" type="file">
+         <!--seccion educacion-->
+         <div class="tab-pane fade" id="v-pills-educacion" role="tabpanel" aria-labelledby="v-pills-educacion-tab" tabindex="0">
+             <h4 class="text-center">Educacion</h4>
+             <div class="mb-3">
+              <label for="formFileSm" class="form-label">Estudios Realizados</label>
+                 <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+                 <button type="button" class="btn btn-secondary">Guardar</button>
+            </div>
+            <div class="mb-3">
+              <label for="formFileSm" class="form-label">Certificado1</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="file">
+              <button type="button" class="btn btn-secondary">Guardar</button>
+            </div>
+            <div class="mb-3">
+              <label for="formFileSm" class="form-label">Certificado2</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="file">
+              <button type="button" class="btn btn-secondary">Guardar</button>
+            </div>
+         </div>
+         <!--seccion experiencia-->
+         <div class="tab-pane fade" id="v-pills-experiencia" role="tabpanel" aria-labelledby="v-pills-expeiencia-tab" tabindex="0">
+          <h4 class="text-center">Experiencia</h4>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">trabajos</label>
+               <textarea class="form-control form-control-sm" id="formFileSm" type="text"></textarea>
+               <button type="button" class="btn btn-secondary">Guardar</button> 
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Empresa</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+            <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Logo de la empresa</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+            <button type="button" class="btn btn-secondary">Guardar</button>
+          </div>
+         </div>
+         <!--seccion skills-->
+         <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab" tabindex="0">
+          <h4 class="text-center">Skills</h4>
+          <div class="container">
+          <form>
+            <div class="row">
+            <div class="col-6 mb-3 row">
+              <label for="html" class="form-label">HTML</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="html">
+                <button type="button" class="btn btn-secondary">Guardar</button>
+                </div>
+              </div>
+              <div class="col-6 mb-3 row">
+                <label for="porcentajeUno" class="form-label">Porcentaje</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="porcentajeUno">
+                  <button type="button" class="btn btn-secondary">Guardar</button>
+                  </div> 
+                </div>
+            </div>
+    
+                <div class="row">
+            <div class="col-6 mb-3 row">
+              <label for="css" class="form-label">CSS</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="css">
+                <button type="button" class="btn btn-secondary">Guardar</button>
+                 </div>
+                </div>
+                <div class="col-6 mb-3 row">
+                  <label for="porcentajeDos" class="form-label">Porcentaje</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="porcentajeDos">
+                    <button type="button" class="btn btn-secondary">Guardar</button>
+                    </div> 
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-6 mb-3 row">
+                    <label for="javascript" class="form-label">JAVASCRIPT</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="javascript">
+                      <button type="button" class="btn btn-secondary">Guardar</button>
+                       </div>
+                      </div>
+                      <div class="col-6 mb-3 row">
+                        <label for="porcentajeTres" class="form-label">Porcentaje</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="porcentajeTres">
+                          <button type="button" class="btn btn-secondary">Guardar</button>
+                          </div> 
+                        </div>
+                      </div>
+    
+                      <div class="row">
+                        <div class="col-6 mb-3 row">
+                          <label for="angular" class="form-label">ANGULAR</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="angular">
+                            <button type="button" class="btn btn-secondary">Guardar</button>
+                             </div>
+                            </div>
+                            <div class="col-6 mb-3 row">
+                              <label for="porcentajeCuatro" class="form-label">Porcentaje</label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control" id="porcentajeCuatro">
+                                <button type="button" class="btn btn-secondary">Guardar</button>
+                                </div> 
+                              </div>
+                            </div> 
+                            
+                            <div class="row">
+                              <div class="col-6 mb-3 row">
+                                <label for="java" class="form-label">JAVA</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control" id="java">
+                                  <button type="button" class="btn btn-secondary">Guardar</button>
+                                   </div>
+                                  </div>
+                                  <div class="col-6 mb-3 row">
+                                    <label for="porcentajeCinco" class="form-label">Porcentaje</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control" id="porcentajeCinco">
+                                      <button type="button" class="btn btn-secondary">Guardar</button>
+                                      </div> 
+                                    </div>
+                                  </div> 
+                                  
+                                  <div class="row">
+                                    <div class="col-6 mb-3 row">
+                                      <label for="bootstrap" class="form-label">BOOTSTRAP</label>
+                                      <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="bootstrap">
+                                        <button type="button" class="btn btn-secondary">Guardar</button>
+                                         </div>
+                                        </div>
+                                        <div class="col-6 mb-3 row">
+                                          <label for="porcentajeSeis" class="form-label">Porcentaje</label>
+                                          <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="porcentajeSeis">
+                                            <button type="button" class="btn btn-secondary">Guardar</button>
+                                            </div> 
+                                          </div>
+                                        </div>                       
+          </form>
         </div>
-        <div class="mb-3">
-          <label for="formFileSm" class="form-label">Nombre y Apellido</label>
-          <input class="form-control form-control-sm" id="formFileSm" type="text">
+         </div>
+        <!--seccion proyecto-->
+        <div class="tab-pane fade" id="v-pills-proyectos" role="tabpanel" aria-labelledby="v-pills-proyectos-tab" tabindex="0">
+<h4 class="text-center">Proyectos</h4>
+<div class="mb-3">
+  <label for="formFileSm" class="form-label">Imagen1</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file">
+  <button type="button" class="btn btn-secondary">Guardar</button>
+</div>
+<div class="mb-3">
+  <label for="formFileSm" class="form-label">Imagen2</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file">
+  <button type="button" class="btn btn-secondary">Guardar</button>
+</div>
+<div class="mb-3">
+  <label for="formFileSm" class="form-label">Imagen3</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file">
+  <button type="button" class="btn btn-secondary">Guardar</button>
+</div>
         </div>
-      </div>
-        <div class="col-1">
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-primary">Primary</button>
-        </div>
-      </div>
+
+         </div>
+        
+        <div class="col-md-1">
+          </div>
     </div>
+   </div>
+  </section>
+
+  <!--footer-->
+<section class="footer ">
+  <footer class="bg-secondary text-center text-white">
+    <div class="pt-3">
+      <p>&COPY; Copyright Iris Noemi Sanchez -2023</p>
+    </div>
+  </footer>
   </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
    </body>
