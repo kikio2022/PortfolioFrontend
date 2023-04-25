@@ -133,6 +133,7 @@ background-color: rgb(219, 231, 240);
     transform: translateY(-2%);
     box-shadow: 5px 50px 20px hsl(0, 1%, 13%);
 }
+
 /*Login*/
 .login{
     margin-top: 10rem;
@@ -162,11 +163,12 @@ li.vertical{
     writing-mode: vertical;
     padding: 0.5rem 0;
     font-size: 1.5rem;
-   }   
+   } 
+  
 
 .footer.bg-dark{
     bottom: 0;
-    position: fixed;
+    position:fixed;
     transform: none;
     width: 100%;
 }
