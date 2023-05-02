@@ -141,6 +141,12 @@ background-color: rgb(219, 231, 240);
 .login{
     height: 94vh;
 }
+body.login { 
+    background-image: url(/ASSETS/IMG/pexels-pixabay-414548.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
 /*Admin*/
 .admin{
     font-size: 1.5rem;
@@ -178,11 +184,14 @@ li.vertical{
 }
 /*Dashboard*/
 .panal{
-    margin-top: 7rem;
+    margin-top: 9rem;
 }
 
 .btn-secondary:hover{
     opacity: 0.75;
     color: #c94291;
 }
-    
+ body.panel{
+    background-color: rgb(241, 223, 241);
+ }  
+ 
